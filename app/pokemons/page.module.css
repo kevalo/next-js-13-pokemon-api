@@ -1,0 +1,66 @@
+.page {
+    padding: 20px;
+}
+
+.list {
+    padding: 20px 0;
+}
+
+.pokemon {
+    border-radius: 20px;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 20px 20px 0 0;
+    max-width: 25%;
+    padding: 20px;
+    width: fit-content;
+}
+
+.name {
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+}
+
+.loading {
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+}
+
+.input::placeholder {
+    text-align: center;
+}
+
+.add {
+    margin-left: 10px;
+}
+
+.picture {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.stats {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    width: 50%;
+}
+
+.stats li {
+    list-style: none;
+}

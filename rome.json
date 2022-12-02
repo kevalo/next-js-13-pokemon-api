@@ -1,0 +1,21 @@
+{
+  "formatter": {
+    "indentSize": 4,
+    "indentStyle": "space",
+    "formatWithErrors": true
+  },
+  "javascript": {
+    "formatter": {
+      "trailingComma": "none"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "a11y": {
+        "useKeyWithClickEvents": "off",
+        "useKeyWithMouseEvents": "off"
+      }
+    }
+  }
+}
