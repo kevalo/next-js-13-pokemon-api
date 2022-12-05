@@ -64,3 +64,27 @@
 .stats li {
     list-style: none;
 }
+
+.options {
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.options button {
+    border-radius: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    width: 46%;
+}
+
+.evolve {
+    background-color: green;
+}
+
+.remove {
+    background-color: red;
+    margin-left: auto;
+}
